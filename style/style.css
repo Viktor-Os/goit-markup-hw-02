@@ -3,6 +3,8 @@ body {
   color: #434455;
   background: #fff;
 }
+/* #region header */
+
 nav {
   font-family: "Raleway", sans-serif;
 }
@@ -16,10 +18,132 @@ nav {
 .logo-web {
   color: #4d5ae5;
 }
-.nav-link .link:active {
-  color: red;
-  /* color: #2e2f42;
+.nav-link .link {
+  color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px; */
+  letter-spacing: 0.32px;
+}
+.nav-link .link:hover,
+.nav-link .link:focus {
+  color: #404bbf;
+}
+.address-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.address .address-link:hover,
+.address .address-link:focus {
+  color: #404bbf;
+}
+/* #endregion */
+/* #region main section-1 */
+.section-1 {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.title {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.button-order {
+  cursor: pointer;
+  padding: 16px 32px;
+  background: #4d5ae5;
+}
+.button-text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+/* #endregion */
+/* #region main section-2 */
+.section-2-title {
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.text-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  width: 264px;
+}
+/* #endregion */
+/* #region main section-3 */
+
+.section-3 {
+  background: #f4f4fd;
+}
+.section-3-title {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.1111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.name {
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.type-of-employment {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+/* #endregion */
+/* #region main section-4 */
+.title-portfolio {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.portfolio-name {
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.job-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+/* #endregion */
+
+.footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+}
+.logo-footer {
+  color: #f4f4fd;
+  font-size: 18px;
+  line-height: 1.16666;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.web-footer {
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.16666;
+  letter-spacing: 0.54px;
+}
+.text-footer {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  width: 264px;
 }
