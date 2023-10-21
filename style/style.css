@@ -9,28 +9,32 @@ nav {
   font-family: "Raleway", sans-serif;
 }
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-size: 18px;
-  line-height: 1.1666;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.logo-web {
-  color: #4d5ae5;
+.logo-studio {
+  color: #2e2f42;
 }
-.nav-link .link {
+ul a {
   color: #2e2f42;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.nav-link .link:hover,
-.nav-link .link:focus {
+.link a:hover,
+.link a:focus {
   color: #404bbf;
 }
+
 .address-link {
   color: #434455;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -40,33 +44,43 @@ nav {
 }
 /* #endregion */
 /* #region main section-1 */
-.section-1 {
+.section-one {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
 }
 .title {
+  text-align: center;
   color: #fff;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .button-order {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
   cursor: pointer;
   padding: 16px 32px;
   background: #4d5ae5;
 }
-.button-text {
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
+.section-one .button-order:hover,
+.section-one .button-order:focus {
+  background-color: #404bbf;
 }
 /* #endregion */
 /* #region main section-2 */
-.section-2-title {
+.section-two {
+  padding: 0 348 32 264;
+}
+.section-title {
   color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
@@ -79,13 +93,15 @@ nav {
 /* #endregion */
 /* #region main section-3 */
 
-.section-3 {
-  background: #f4f4fd;
+.section-three {
+   background-color: #FFFFFF;
 }
-.section-3-title {
+.section-three-title {
+  text-align: center;
   color: #2e2f42;
   font-size: 36px;
-  line-height: 1.1111;
+   font-weight: 500;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -103,9 +119,11 @@ nav {
 /* #endregion */
 /* #region main section-4 */
 .title-portfolio {
+  text-align: center;
   color: #2e2f42;
   font-size: 36px;
-  line-height: 1.11111;
+  font-weight: 500;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -128,14 +146,16 @@ nav {
   height: 312px;
 }
 .logo-footer {
-  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
-  line-height: 1.16666;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .web-footer {
-  color: #4d5ae5;
+   color: #f4f4fd;
   font-size: 18px;
   line-height: 1.16666;
   letter-spacing: 0.54px;
