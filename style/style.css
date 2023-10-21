@@ -38,6 +38,9 @@ ul a {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.address {
+  font-style: normal;
+}
 .address .address-link:hover,
 .address .address-link:focus {
   color: #404bbf;
@@ -57,8 +60,8 @@ ul a {
   letter-spacing: 1.12px;
 }
 .button-order {
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -94,20 +97,24 @@ ul a {
 /* #region main section-3 */
 
 .section-three {
-   background-color: #FFFFFF;
+  background-color: #f4f4fd;
 }
 .section-three-title {
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
-   font-weight: 500;
+  font-weight: 500;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+.section-foto {
+  background-color: #ffffff;
+}
 .name {
   color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
@@ -130,6 +137,7 @@ ul a {
 .portfolio-name {
   color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
@@ -155,7 +163,7 @@ ul a {
   text-transform: uppercase;
 }
 .web-footer {
-   color: #f4f4fd;
+  color: #f4f4fd;
   font-size: 18px;
   line-height: 1.16666;
   letter-spacing: 0.54px;
