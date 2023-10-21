@@ -5,10 +5,8 @@ body {
 }
 /* #region header */
 
-nav {
-  font-family: "Raleway", sans-serif;
-}
 .logo {
+  font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
