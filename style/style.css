@@ -78,7 +78,8 @@ ul a {
 /* #endregion */
 /* #region main section-2 */
 .section-two {
-  padding: 0 348 32 264;
+  width: 1128px;
+  height: 104px;
 }
 .section-title {
   color: #2e2f42;
