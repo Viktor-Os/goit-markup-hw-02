@@ -46,6 +46,7 @@ ul a {
 /* #endregion */
 /* #region main section-1 */
 .section-one {
+  font-family: "Roboto", sans-serif;
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
@@ -68,9 +69,8 @@ ul a {
   padding: 16px 32px;
   background: #4d5ae5;
 }
-.button-text {
-  font-family: "Roboto", sans-serif;
-}
+
+
 .section-one .button-order:hover,
 .section-one .button-order:focus {
   background-color: #404bbf;
