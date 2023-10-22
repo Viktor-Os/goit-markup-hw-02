@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background: #fff;
+  background-color: #fff;
 }
 /* #region header */
 
@@ -13,43 +13,39 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  
 }
 .logo-studio {
   color: #2e2f42;
 }
-ul a {
+.link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.link a:hover,
-.link a:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
-.address-link {
+.contact {
   color: #434455;
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.address {
-  font-style: normal;
-}
-.address .address-link:hover,
-.address .address-link:focus {
+
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 /* #endregion */
 /* #region main section-1 */
 .section-one {
-  
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 .title {
   text-align: center;
@@ -67,21 +63,17 @@ ul a {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
-  padding: 16px 32px;
-  background: #4d5ae5;
+
+  background-color: #4d5ae5;
 }
 
-
-.section-one .button-order:hover,
-.section-one .button-order:focus {
+ .button-order:hover,
+ .button-order:focus {
   background-color: #404bbf;
 }
 /* #endregion */
 /* #region main section-2 */
-.section-two {
-  width: 1128px;
-  height: 104px;
-}
+
 .section-title {
   color: #2e2f42;
   font-size: 20px;
@@ -93,7 +85,7 @@ ul a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
+ 
 }
 /* #endregion */
 /* #region main section-3 */
@@ -152,8 +144,7 @@ ul a {
 
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
+  
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -175,5 +166,4 @@ ul a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
 }
