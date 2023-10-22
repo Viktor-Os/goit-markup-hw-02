@@ -13,6 +13,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  
 }
 .logo-studio {
   color: #2e2f42;
@@ -45,8 +46,6 @@ body {
 /* #region main section-1 */
 .section-one {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 .title {
   text-align: center;
@@ -68,16 +67,13 @@ body {
   background: #4d5ae5;
 }
 
-.section-one .button-order:hover,
-.section-one .button-order:focus {
+ .button-order:hover,
+ .button-order:focus {
   background-color: #404bbf;
 }
 /* #endregion */
 /* #region main section-2 */
-.section-two {
-  width: 1128px;
-  height: 104px;
-}
+
 .section-title {
   color: #2e2f42;
   font-size: 20px;
@@ -89,7 +85,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
+ 
 }
 /* #endregion */
 /* #region main section-3 */
@@ -148,8 +144,7 @@ body {
 
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
+  
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -171,5 +166,4 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
 }
